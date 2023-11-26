@@ -1,0 +1,19 @@
+Aujourd'hui
+En ce moment
+Dans cette journée
+Ce matin
+Cet après-midi
+Lundi matin
+Mardi matin
+Mercredi matin
+Jeudi matin
+Vendredi matin
+Samedi matin
+Dimanche matin
+Lundi soir
+Mardi soir
+Mercredi soir
+Jeudi soir
+Vendredi soir
+Samedi soir
+Dimanche soir
