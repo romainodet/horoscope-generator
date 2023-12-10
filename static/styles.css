@@ -54,9 +54,7 @@ body.dark-mode main {
 
 /* Styles pour le bouton de basculement */
 .floating-button {
-    position: fixed;
-    bottom: 20px;
-    left: 20px;
+    position: relative;
     background-color: #333;
     color: #fff;
     border: none;
@@ -78,4 +76,14 @@ body.dark-mode .floating-button {
 
 body.dark-mode .floating-button:hover {
     background-color: #f0f0f0;
+}
+
+.button-container {
+    position: fixed;
+    bottom: 20px; /* Distance par rapport au bas de la page */
+    left: 20px; /* Distance par rapport à la gauche de la page */
+    display: flex;
+    flex-direction: column; /* Pour empiler les boutons verticalement */
+    gap: 10px; /* Espacement entre les boutons */
+
 }
