@@ -28,7 +28,8 @@ main {
 }
 
 .horoscope-item {
-    width: 30%; /* 3 éléments par ligne avec espacement */
+    flex-grow: 1;
+    width: 33%;
     margin-bottom: 20px;
     border: 1px solid #ddd;
     padding: 10px;

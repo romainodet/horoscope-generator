@@ -11,10 +11,10 @@ def lire_fichier_texte(nom_fichier):
 
 
 # Charger les extraits de phrases depuis les fichiers texte
-debut_phrases = lire_fichier_texte('début.txt')
-milieu_phrases = lire_fichier_texte('milieu.txt')
-milieu2_phrases = lire_fichier_texte('milieu2.txt')
-fin_phrases = lire_fichier_texte('fin.txt')
+debut_phrases = lire_fichier_texte('/home/romainodet/horoscope-generator/templates/debut.txt')
+milieu_phrases = lire_fichier_texte('/home/romainodet/horoscope-generator/templates/milieu.txt')
+milieu2_phrases = lire_fichier_texte('/home/romainodet/horoscope-generator/templates/milieu2.txt')
+fin_phrases = lire_fichier_texte('/home/romainodet/horoscope-generator/templates/fin.txt')
 
 
 # Route pour obtenir un horoscope aléatoire pour un signe donné
